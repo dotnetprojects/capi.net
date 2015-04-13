@@ -134,7 +134,7 @@ namespace Mommosoft.Capi {
             if (IntPtr.Size == 8)
                 CAPI_GET_MANUFACTURER64(buffer);
             else
-                CAPI_GET_MANUFACTURER64(buffer);
+                CAPI_GET_MANUFACTURER32(buffer);
         }
 
         [DllImport("CAPI2032.DLL", CharSet = CharSet.Ansi, EntryPoint = "CAPI_GET_SERIAL_NUMBER")]
@@ -150,9 +150,9 @@ namespace Mommosoft.Capi {
         public static void CAPI_GET_SERIAL_NUMBER([Out] StringBuilder buffer)
         {
             if (IntPtr.Size == 8)
-                CAPI_GET_SERIAL_NUMBER(buffer);
+                CAPI_GET_SERIAL_NUMBER64(buffer);
             else
-                CAPI_GET_SERIAL_NUMBER(buffer);
+                CAPI_GET_SERIAL_NUMBER32(buffer);
         }
 
         [DllImport("CAPI2032.DLL", CharSet = CharSet.Ansi, EntryPoint = "CAPI_WAIT_FOR_SIGNAL")]
