@@ -9,7 +9,7 @@ namespace Mommosoft.Capi {
     using System.Threading;
     using System.ComponentModel;
 
-    public partial class Controller : Component {
+    public partial class Controller /*: Component*/ {
         private int _timeout = 1000 * 60; // 1 min.
         private uint _id;
         private CapiApplication _application;
@@ -249,7 +249,7 @@ namespace Mommosoft.Capi {
             _application.SendMessage(response);
             connection.Status = ConnectionStatus.Disconnected;
             Connections.InternalRemove(indication.Identifier.PLCI);
-            connection.Dispose();
+            //connection.Dispose();
         }
 
         internal void ConnectIndication(ConnectIndication indication) {

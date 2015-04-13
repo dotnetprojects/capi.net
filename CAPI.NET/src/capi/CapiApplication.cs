@@ -8,7 +8,7 @@ namespace Mommosoft.Capi {
     using System.Diagnostics;
     using System.Runtime.InteropServices;
 
-    public partial class CapiApplication : Component {
+    public partial class CapiApplication : IDisposable /*: Component*/ {
         private static short s_messageNumber = 0;
         private static object s_messageNumberLockObject = new object();
         private static readonly TimeSpan MessageQueueTimeout = new TimeSpan(0, 0, 0, 10);
@@ -59,7 +59,7 @@ namespace Mommosoft.Capi {
 
         }
 
-        protected override void Dispose(bool disposing) {
+        public /*override*/ void Dispose(/*bool disposing*/) {
             if (_appID != AppIDPlaceHolder) {
                 _run = false;
                 SendFakeListenRequest();
@@ -67,7 +67,7 @@ namespace Mommosoft.Capi {
                 CapiPInvoke.Release(_appID);
                 _appID = AppIDPlaceHolder;
             }
-            base.Dispose(disposing);
+            //base.Dispose(disposing);
         }
 
         private void SendFakeListenRequest() {

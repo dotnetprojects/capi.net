@@ -8,7 +8,7 @@ namespace Mommosoft.Capi {
     using System.IO;
     using System.Runtime.InteropServices;
 
-    public partial class Connection : Component {
+    public partial class Connection /*: Component*/ {
         private const uint INVAL_NCCI = 0;
         private CapiApplication _application;
         private Controller _controller;
