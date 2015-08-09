@@ -29,7 +29,7 @@ artifacts:
     name: DotNetProjects.Capi.Net.dll
   - path: CAPI.NET\src\capi\bin\Debug\DotNetProjects.Capi.Net.pdb
     name: DotNetProjects.Capi.Net.pdb
-  - path: '**\DotNetProjects.Migrator*.nupkg'
+  - path: '**\DotNetProjects.*.nupkg'
 
 #uncomment to publish to NuGet
 deploy:
