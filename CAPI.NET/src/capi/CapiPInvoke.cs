@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Mommosoft.Capi.Properties;
 using System.Runtime.InteropServices;
 using System.IO;
 

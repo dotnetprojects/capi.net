@@ -8,8 +8,8 @@
     <ProjectGuid>{2FA2A238-C18C-436F-BFA6-D85B46C10D0E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mommosoft.Capi</RootNamespace>
-    <AssemblyName>Mommosoft.Capi</AssemblyName>
+    <RootNamespace>DotNetProjects.Capi.Net</RootNamespace>
+    <AssemblyName>DotNetProjects.Capi.Net</AssemblyName>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>

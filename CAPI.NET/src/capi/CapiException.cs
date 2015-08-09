@@ -1,10 +1,11 @@
+using DotNetProjects.Capi.Net.Properties;
+
 namespace Mommosoft.Capi {
     using System;
     using System.Collections.Generic;
     using System.Text;
     using System.Runtime.Serialization;
-    using Mommosoft.Capi.Properties;
-
+    
     [Serializable]
     public class CapiException : Exception {
         private Info _code;

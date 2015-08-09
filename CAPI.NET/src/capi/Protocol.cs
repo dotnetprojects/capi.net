@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Mommosoft.Capi.Properties;
+using DotNetProjects.Capi.Net.Properties;
 
 namespace Mommosoft.Capi {
     public class Protocol {

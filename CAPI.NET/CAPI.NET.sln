@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{961F0D52-F114-4966-9630-843589280ABB}"
 EndProject
@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phone", "Phone", "{1FDFF14B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "capi", "capi", "{FCF32DC3-085A-46DE-9CDE-E26C37499E25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mommosoft.Capi", "src\capi\Mommosoft.Capi.csproj", "{2FA2A238-C18C-436F-BFA6-D85B46C10D0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetProjects.Capi.Net", "src\capi\DotNetProjects.Capi.Net.csproj", "{2FA2A238-C18C-436F-BFA6-D85B46C10D0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone", "samples\Phone\Phone.csproj", "{20235EF7-F5E6-4231-88F8-DB365F0E3CEB}"
 EndProject

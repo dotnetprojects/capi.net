@@ -1,9 +1,10 @@
+using DotNetProjects.Capi.Net.Properties;
+
 namespace Mommosoft.Capi {
     using System;
     using System.Collections.Generic;
     using System.Text;
     using System.Resources;
-    using Mommosoft.Capi.Properties;
     using System.Runtime.InteropServices;
     using System.Diagnostics;
     using System.Threading;

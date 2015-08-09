@@ -104,9 +104,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\capi\Mommosoft.Capi.csproj">
+    <ProjectReference Include="..\..\src\capi\DotNetProjects.Capi.Net.csproj">
       <Project>{2FA2A238-C18C-436F-BFA6-D85B46C10D0E}</Project>
-      <Name>Mommosoft.Capi</Name>
+      <Name>DotNetProjects.Capi.Net</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
