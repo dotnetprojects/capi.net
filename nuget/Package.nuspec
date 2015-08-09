@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DotNetProjects.Capi.Net</id>
+    <version>$version$</version>
+    <authors>DotNetProjects</authors>
+    <owners>DotNetProjects</owners>
+    <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+    <projectUrl>https://github.com/jogibear9988/capi.net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Framework Assembly for DotNetProjects.Capi.Net</description>
+    <copyright>Copyright 2015</copyright>
+  </metadata>
+  <files>
+    <file src="..\CAPI.NET\src\capi\bin\Debug\DotNetProjects.Capi.Net.dll" target="lib\net40" />
+    <file src="..\CAPI.NET\src\capi\bin\Debug\DotNetProjects.Capi.Net.pdb" target="lib\net40" />
+  </files>
+</package>
